@@ -26,6 +26,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
             presets: [
               ['@babel/preset-env', 
                 { targets: {
+                node: 'current',
                 "browsers": [
                   ">0.25%"
                 ]}}
